@@ -7,7 +7,7 @@ const querystring = require("querystring");
 
 const {client_id, client_secret, scope} = require("./auth/credentials.json");
 
-const host = "localhost" // Side note localhost can also be accessed using IPv6 with [::1]:3000
+const host = "localhost" // localhost can also be accessed using IPv6 with [::1]:3000
 const port = 3000;
 
 const task_states = [];
